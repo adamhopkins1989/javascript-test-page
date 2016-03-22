@@ -1,0 +1,21 @@
+{
+	"version": 3,
+	"file": "app.css",
+	"sources": [
+		"../../dev/scss/app.scss",
+		"../../dev/scss/_vars.scss",
+		"../../dev/scss/_global.scss",
+		"../../dev/scss/_layout.scss",
+		"../../dev/scss/_container.scss",
+		"../../dev/scss/_placeholder.scss",
+		"../../dev/scss/_inline.scss",
+		"../../dev/scss/_mixin.scss",
+		"../../dev/scss/_buttons.scss",
+		"../../dev/scss/_nav.scss",
+		"../../dev/scss/_extends.scss",
+		"../../dev/scss/_images.scss",
+		"../../dev/scss/_footer.scss"
+	],
+	"mappings": "AAAA;WACW;ACAX;WACW;AAYX;WACW;AAMX;cACc;AAOd;YACY;AAOZ;QACQ;AAMR,YAAY;AC5CZ,IAAI,CAAC;EACJ,WAAW,EDKM,QAAQ,EAAE,UAAU,GCJrC",
+	"names": []
+}
