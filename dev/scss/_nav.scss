@@ -1,0 +1,32 @@
+.logo {
+    margin: 0px 68px;
+    ul {
+        float: right;
+        margin-top: 13px;
+        li {
+            display: inline-block;
+            margin: 0px 15px;
+            text-transform: uppercase;
+            h1 {
+                @extend %decor;
+            }
+        }
+    }
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    height: 50px;
+    padding-top: 25px;
+    background-color: #f34949;
+}
+
+.nav {
+    height: 70px;
+    padding-top: 10px;
+}

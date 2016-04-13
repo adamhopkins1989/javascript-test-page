@@ -93,18 +93,6 @@ module.exports = function(grunt) {
             }
         },
 
-        jshint: {
-            files: ['gruntfile.js', 'dist/js/*.js', 'dev/js/*.js'],
-            options: {
-                globals: {
-                    jQuery: true,
-                    console: true,
-                    module: true
-                }
-            }
-        },
-
-
         //Browersync
         browserSync: {
             default_options: {
@@ -135,6 +123,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-browser-sync');
 
     // Run tasks
-    grunt.registerTask('default', ['browserSync', 'sass', 'concat', 'uglify', 'jshint', 'copy', 'watch', ]);
+    grunt.registerTask('default', ['browserSync', 'sass', 'concat', 'uglify', 'copy', 'watch', ]);
 
 };

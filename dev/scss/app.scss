@@ -1,16 +1,15 @@
 /**
 * global */
 
-
+@import	'_normalise';
 @import '_vars';
 @import '_global';
-@import '_layout';
 @import '_container';
 @import '_placeholder';
-@import '_inline';
+@import '_maps';
 @import '_mixin';
 @import '_buttons';
 @import '_nav';
-@import '_extends';
+@import '_extend';
 @import '_images';
 @import '_footer';

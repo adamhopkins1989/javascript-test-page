@@ -1,0 +1,12 @@
+.load {
+	@extend %clearfix
+}
+
+form, input {
+	margin: 0px 10px;
+}
+
+#api {
+	@extend %center
+	color: $primary-color;
+}

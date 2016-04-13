@@ -1,21 +1,24 @@
 
-/**
+/**           
 * global */
 
-$body-bg-color:#edeff0;
-$body-text-color:#222;
-$body-font-family:'Ubuntu', sans-serif;;
+$body-bg-color:#fff;
+$body-text-color: #3a3a3a;
+$body-text-licolor: #a4a4a4;
+$body-font-family:'Ubuntu', sans-serif;
+$body-font-family-2: 'Playfair Display', serif;
+$footer-bg-color: #3b3b3b;
 $body-font-size:100%;
 $body-line-height:150%;
 
-$link-color:green;
+$link-color:#69eb09;
 $link-weight:bold;
 
 
 /**
 * colors */
 
-$primary-color:#e0e0e0;
+$primary-color:#f34949;
 $success-color:#5ebc41;
 $error-color:#bb2828;
 
@@ -24,8 +27,7 @@ $error-color:#bb2828;
 
 $container-bg-color:#fff;
 $container-border-radius:5px;
-$container-shadow: 0 2px 0 rgba (0,0,0,.1);
-$container-footer-top-border: 4px solid #e8ebed;
+
 
 /**
 * buttons */
